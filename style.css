@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #222;
+    color : white;
+    background: linear-gradient(135deg, #00feba , #5b548a);
+}
+.searchbar{
+    height : 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+#search{
+    width : 20%;
+    height : 70%;
+    min-width: fit-content;
+    border: none;
+    border-radius: 34px;
+    padding-left: 2%;
+}
+#search-icon{
+    margin-left: 1%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 34px;
+    color:  black;
+    border: 0.5px solid gainsboro;
+}
+.hero-section{
+    height : 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.humidity{
+    display: flex;
+    margin-left: 18%;
+}
+#humidity-value{
+    margin : -5% 25%;
+}
+#humidity-img{
+    height : 65%;
+}
+#prop-name1{
+    margin : 0 25%;
+}
+.wind{
+    display: flex;
+    width : 30%;
+}
+.wind-data{
+    width : 100%; 
+}
+#wind{
+    margin-left: 10%;
+}
+#kmh{
+    font-size: 18px;
+}
+#wind-img{
+    height : 85%;
+}
+#prop-name2{
+    width : 100%;
+    margin-left: 10%;
+}

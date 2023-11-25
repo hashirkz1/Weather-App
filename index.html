@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="searchbar">
+      <input id="search" type="text" placeholder="Enter your city" />
+      <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="hero-section">
+      <img id="hero-img" src="images/clear.png" alt="" />
+      <h1><span id="temp">Temp</span><sup>o</sup>C</h1>
+      <h1 id="city">City</h1>
+    </div>
+    <footer>
+      <div class="details">
+        <div class="humidity">
+          <img id="humidity-img" src="images/humidity.png" alt="" />
+          <div class="humidity-data">
+            <h1 id="humidity-value">value</h1>
+            <h2 id="prop-name1">Humidity</h2>
+          </div>
+        </div>
+        <div class="wind">
+            <img id= "wind-img" src="images/wind.png" alt="">
+            <div class="wind-data">
+                <h1><span id="wind">value</span><span id="kmh"> km/h</span></h1>
+                <h2 id="prop-name2">Wind Speed</h2>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
